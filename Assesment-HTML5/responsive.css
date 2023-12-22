@@ -1,0 +1,234 @@
+@media (max-width: 1199.98px) {
+  .statistic-wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 23px;
+  }
+  .statistic-item {
+    width: 280px;
+    height: 280px;
+  }
+  .statistic-section p:first-of-type {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 991px) {
+  nav a {
+    font-size: 17px;
+  }
+
+  .card {
+    width: 33%;
+  }
+  .hero-wrapper h1 {
+    font-size: 64px;
+  }
+  .hero-wrapper p {
+    font-size: 16px;
+  }
+  button {
+    width: 269px;
+    font-size: 23px;
+  }
+  .menu p {
+    font-size: 18px;
+  }
+  .Barry-Henderson-section p {
+    font-size: 25px;
+  }
+  .subscribe {
+    right: 13%;
+  }
+  .links-container li:first-of-type {
+    font-size: 28px;
+  }
+  .links-container li {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 768px) {
+  nav a {
+    font-size: 16px;
+  }
+  .logo img {
+    width: 130px;
+  }
+  .search img {
+    width: 30px;
+  }
+  .hero-wrapper h1 {
+    font-size: 58px;
+  }
+  .hero-wrapper p {
+    font-size: 16px;
+  }
+  .hero-wrapper button {
+    width: 264px;
+    height: 57px;
+    font-size: 22px;
+  }
+  .menu h1 {
+    font-size: 65px;
+  }
+  .menu p {
+    font-size: 20px;
+  }
+  .card-wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+  }
+  .card {
+    width: 43%;
+  }
+  .statistic-wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 23px;
+  }
+  .statistic-item {
+    width: 280px;
+    height: 280px;
+  }
+  .statistic-section p:first-of-type {
+    font-size: 24px;
+  }
+  .Barry-Henderson-section p {
+    font-size: 23px;
+  }
+  .subscribe {
+    bottom: 0;
+    right: 3%;
+  }
+  .flex-direction {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+  }
+  .links-container {
+    align-items: start;
+    justify-content: space-between;
+  }
+  .gap-50 {
+    gap: 50px;
+  }
+  .col-40 {
+    width: 100%;
+  }
+  .col-60 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .menu h1 {
+    font-size: 52px;
+  }
+  .menu p {
+    font-size: 20px;
+  }
+  .card {
+    width: 100%;
+  }
+  .card-wrapper {
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 50px;
+  }
+  .navmenu {
+    display: none;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .col-50 {
+    width: 100%;
+  }
+  .hero-wrapper {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .hero-wrapper h1 {
+    font-size: 70px;
+  }
+  .hero-wrapper p {
+    font-size: 20px;
+  }
+  .statistic-wrapper {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .statistic-section p:first-of-type {
+    font-size: 13px;
+  }
+  input {
+    width: 378px;
+  }
+  .subscribe {
+    bottom: 0;
+    right: 11%;
+    font-size: 16px;
+
+    width: 136px;
+  }
+  ::placeholder {
+    font-size: 16px;
+  }
+  .newsletter-wrapper h1 {
+    font-size: 59px;
+  }
+  .newsletter-wrapper p {
+    font-size: 16px;
+  }
+  .col-40,
+  .col-60 {
+    width: 100%;
+  }
+  .info-wrapper p {
+    font-size: 15px;
+  }
+  .gap-50 {
+    gap: 50px;
+  }
+  .links-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 48px;
+  }
+  .links-container li {
+    font-size: 18px;
+  }
+  .Barry-Henderson-section p {
+    font-size: 17px;
+  }
+  .image-wrapper2 {
+    height: 280px;
+    width: 280px;
+  }
+  .hero-wrapper {
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 1399.98px) {
+  .card-img {
+    height: 300px;
+    width: 300px;
+  }
+  .body-text {
+    font-size: 21px;
+  }
+  .subscribe {
+    bottom: 0;
+    right: 27%;
+  }
+  .statistic-wrapper {
+    justify-content: center;
+    gap: 30px;
+  }
+}
