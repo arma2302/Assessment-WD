@@ -1,15 +1,18 @@
 // SPAN OPACITY 0 IN NORMAL
-document.getElementById("show").style.opacity = "0";
+document.getElementById("show").style.display = "none";
 
-// wHEN I CLICK ON PASSWORD INPUT THE SPAN OPACITY WILL BE 1
-function password() {
-  let user_pass = document.getElementById("pass");
-
-  if (user_pass.value == "") {
-    document.getElementById("show").style.opacity = "1";
+//   FUNCTION FOR SHOW AND HIDE PASSWORD//and PLACEHOLDER
+function ChangeInput(a, holder, hideshow) {
+  if (a != "") {
+    document.getElementById(holder).style.top = "0px";
+    console.log("10px");
+    document.getElementById(holder).style.transition = "0.3s ease";
+    document.getElementById(hideshow).style.display = "block";
+  } else {
+    document.getElementById(holder).style.top = "10px";
+    document.getElementById(hideshow).style.display = "none";
   }
 }
-//   FUNCTION FOR SHOW AND HIDE PASSWORD
 function showpass() {
   let user_pass = document.getElementById("pass");
   if (user_pass.type === "password" && user_pass.value !== "") {

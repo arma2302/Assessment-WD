@@ -155,11 +155,11 @@ input:focus {
   outline: none;
   font-size: 15px;
 }
-.user-data input:focus ~ #usern {
+/* .user-data input:focus ~ #usern {
   top: 0px;
   font-size: 12px;
 }
 .user-data input:focus ~ #userp {
   top: 0px;
   font-size: 12px;
-}
+} */
