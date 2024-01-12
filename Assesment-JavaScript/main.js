@@ -7,10 +7,23 @@ function ChangeInput(a, holder, hideshow) {
     document.getElementById(holder).style.top = "0px";
     console.log("10px");
     document.getElementById(holder).style.transition = "0.3s ease";
+    // document.getElementById(error).innerText = "this is required";
     document.getElementById(hideshow).style.display = "block";
   } else {
     document.getElementById(holder).style.top = "10px";
+    // document.getElementById(error).innerText = "";
     document.getElementById(hideshow).style.display = "none";
+  }
+}
+
+// handle valodation print error message
+function HandleValidation(input, err, msg) {
+  if (input.value == "") {
+    document.getElementById(err).innerText = msg + "is required";
+    console.log("if is called");
+  } else {
+    document.getElementById(err).innerText = "";
+    console.log("else is called");
   }
 }
 function showpass() {

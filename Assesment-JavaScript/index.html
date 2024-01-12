@@ -20,14 +20,28 @@
             </div>
             <!-- inputs -->
             <div class="user-data-wrap">
+              <!-- username -->
               <div class="user-data">
-                <input type="text" name="user" id="username" placeholder="" onclick="ChangeInput(this,'usern','aa')" />
+                <input
+                  type="text"
+                  name="user"
+                  id="username"
+                  oninput="ChangeInput(this,'usern','')"
+                  onblur="HandleValidation(this
+                ,'error1','username')"
+                />
+                <span id="error1"></span>
                 <label id="usern">Phone Number,Username or email</label>
+                <!-- error msg span -->
               </div>
+              <!-- password -->
               <div class="user-data">
-                <input type="password" id="pass" placeholder="" onclick="ChangeInput(this,'userp','show')" />
+                <input type="password" id="pass" oninput="ChangeInput(this,'userp','show')" onblur="HandleValidation(this,'error2','password')" />
+                <span id="error2"></span>
                 <label id="userp">password</label>
+                <!-- show and hide span -->
                 <span onclick="showpass()" id="show">show </span>
+                <!-- error msg span  -->
               </div>
               <button class="login" onclick="login()">Log in</button>
             </div>
