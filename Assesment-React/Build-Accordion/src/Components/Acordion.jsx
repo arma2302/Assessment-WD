@@ -11,17 +11,14 @@ export default function Acordion() {
   };
   const Data = [
     {
-      id: 1,
       Quetion: "What is Your Return Policy?",
       Ans: "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aperiam quas modi mollitia sapiente tempore ipsam ullam quae",
     },
     {
-      id: 2,
       Quetion: "How Do i Track My Order?",
       Ans: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aperiam quas modi mollitia sapiente tempore ipsam ullam quae, ad voluptatem dolorum enim illo optio vero suscipit laudantium voluptas voluptatibus laboriosam.",
     },
     {
-      id: 2,
       Quetion: "Can i Purchase Items Again?",
       Ans: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aperiam quas modi mollitia sapiente tempore ipsam ullam quae, ad voluptatem dolorum enim illo optio vero suscipit laudantium voluptas voluptatibus laboriosam.",
     },
